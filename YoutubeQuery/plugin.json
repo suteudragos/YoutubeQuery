@@ -6,7 +6,7 @@
     "Author":"Dragos Suteu",
     "Version":"1.0.0",
     "Language":"csharp",
-    "Website":" ",
+    "Website":"https://github.com/suteudragos/YoutubeQuery",
     "ExecuteFileName":"YoutubeQuery.dll",
     "IcoPath":"icon.png"
 }
