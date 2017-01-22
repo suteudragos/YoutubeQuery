@@ -1,0 +1,12 @@
+{
+    "ID":"5C0BFEC0-DF70-11E6-9598-0800200C9A66",
+    "ActionKeyword":"yt",
+    "Name":"Youtube Query",
+    "Description":"Search Youtube videos in Wox",
+    "Author":"Dragos Suteu",
+    "Version":"1.0.0",
+    "Language":"csharp",
+    "Website":" ",
+    "ExecuteFileName":"YoutubeQuery.dll",
+    "IcoPath":"icon.png"
+}
