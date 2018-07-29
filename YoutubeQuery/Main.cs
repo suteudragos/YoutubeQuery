@@ -16,6 +16,7 @@ namespace YoutubeQuery {
             URL_Builder urlBuilder = new URL_Builder( query.Search );
 
             using (var webClient = new System.Net.WebClient()) {
+		webClient.Encoding = System.Text.Encoding.UTF8;
                 var json = webClient.DownloadString( urlBuilder.URL );
                 YoutubeApiResponse YTApiRes = JsonConvert.DeserializeObject<YoutubeApiResponse>( json );
 
